@@ -15,5 +15,6 @@ jobs:
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
           git_access_token: ${{ secrets.git_access_token }}
+          tag: latest
           folder: ./
           branch: main
